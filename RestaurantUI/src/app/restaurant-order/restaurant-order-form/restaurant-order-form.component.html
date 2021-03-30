@@ -1,0 +1,44 @@
+<form class="order__form"
+  #orderForm="ngForm"
+  (ngSubmit)="onSubmit()">
+  <div class="order__form--group" [ngClass]="{'has-error': errorMessage}">
+    <label for="order_input" >
+      Input
+      <span
+        >
+        *</span>
+    </label>
+    <input
+      type="text"
+      class="order__form--control"
+      id="order_input"
+      [(ngModel)]="orderInput"
+      name="orderInput"
+      required
+      minlength="5"
+      placeholder="Insert your order">
+  </div>
+  <div
+    *ngIf="errorMessage"
+    class="has-error">
+    <span>{{ errorMessage }}</span>
+  </div>
+
+  <button
+    type="submit"
+    class="button button--send"
+    [disabled]="!orderForm.form.valid">
+    Send Order
+    <i class="material-icons left"></i>
+  </button>
+  <div class="order__form--group">
+    <label for="order_output">Output</label>
+    <input
+      type="text"
+      class="order__form--control"
+      id="order_output"
+      [(ngModel)]="orderOutput"
+      name="orderOutput"
+      readonly>
+  </div>
+</form>

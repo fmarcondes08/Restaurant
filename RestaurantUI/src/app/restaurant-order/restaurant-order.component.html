@@ -1,0 +1,10 @@
+<div class="container__wrapper">
+  <app-restaurant-order-form
+    class="item"
+    (getOrderOutput)="getOrderOutput($event)">
+  </app-restaurant-order-form>
+  <app-restaurant-grid-results
+    class="item"
+    [orderOutput]="output">
+  </app-restaurant-grid-results>
+</div>

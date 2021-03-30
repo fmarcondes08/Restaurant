@@ -1,0 +1,16 @@
+$colors: (
+  base-colors: (
+    _white: #fff,
+    _blue: #2853e2,
+    _green: #3ccf49,
+    _black: #000,
+    _grey-one: #e6ebeb,
+    _grey-two: #efe,
+    _grey-three: #ccc,
+    _red: #a94442,
+  ),
+);
+
+@function color($color-name, $color-variant) {
+  @return map-get(map-get($colors, $color-name), $color-variant);
+}

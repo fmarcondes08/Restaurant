@@ -1,0 +1,19 @@
+<section
+  *ngIf="orderArray.length > 0"
+  class="grid-results__section">
+  <h2>History of inputs and outputs</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Input</th>
+        <th>Output</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of orderArray">
+        <td>{{ item.inputOrder }}</td>
+        <td>{{ item.orderResponse }}</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
