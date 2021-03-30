@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OrderAPI</name>
+    </assembly>
+    <members>
+        <member name="P:OrderAPI.Domain.Dish.Type">
+            <summary>
+            Type of the dish
+            </summary>
+        </member>
+        <member name="P:OrderAPI.Domain.Dish.Name">
+            <summary>
+            Name of the dish
+            </summary>
+        </member>
+        <member name="P:OrderAPI.Domain.Dish.IsMultiple">
+            <summary>
+            Flag to indicate if a dish can be ordered multiple times
+            </summary>
+        </member>
+    </members>
+</doc>

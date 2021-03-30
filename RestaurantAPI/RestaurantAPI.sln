@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderAPI", "OrderAPI\OrderAPI.csproj", "{59CD2F01-007B-4E91-BFF3-91DE5F6E327D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderAPITest", "OrderAPITest\OrderAPITest.csproj", "{61376FDA-AEDD-4E19-B166-79C6014325DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59CD2F01-007B-4E91-BFF3-91DE5F6E327D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59CD2F01-007B-4E91-BFF3-91DE5F6E327D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59CD2F01-007B-4E91-BFF3-91DE5F6E327D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59CD2F01-007B-4E91-BFF3-91DE5F6E327D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61376FDA-AEDD-4E19-B166-79C6014325DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61376FDA-AEDD-4E19-B166-79C6014325DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61376FDA-AEDD-4E19-B166-79C6014325DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61376FDA-AEDD-4E19-B166-79C6014325DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FDE67941-1866-4B8F-9948-12ACCE37DFB4}
+	EndGlobalSection
+EndGlobal
